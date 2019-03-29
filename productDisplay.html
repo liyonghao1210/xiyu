@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>产品展示</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/productDisplay.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="clearfix headerWrap">
+                <div class="logo left">
+                    <a href="javascrip:;">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="clearfix right navbar">
+                    <li class="left"><a href="javascript:;">首页</a></li>
+                    <li class="left"><a href="javascript:;">产品展示</a></li>
+                    <li class="left"><a href="javascript:;">品牌介绍</a></li>
+                    <li class="left"><a href="javascript:;">海参菜谱</a></li>
+                    <li class="left"><a href="javascript:;">干参泡发</a></li>
+                    <li class="left"><a href="javascript:;">联系我们</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="productContent">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <div class="manyi">
+                <img src="images/manyi.png" alt="">
+            </div>
+
+            <div class="clearfix manyi1">
+                <dl class="left">
+                    <dt>满溢250g</dt>
+                    <dd><img src="images/01.png" alt=""></dd>
+                </dl>
+                <dl class="right">
+                    <dt>满溢1500g</dt>
+                    <dd><img src="images/02.png" alt=""></dd>
+                </dl>
+            </div>
+
+            <div class="manyi3">
+                <img src="images/03.png" alt="">
+            </div>
+
+            <div class="manyi4">
+                <img src="images/xiyugan.png" alt="">
+            </div>
+
+            <div class="manyi5">
+                <ul>
+                    <li>
+                        <img src="images/zs1.png" alt="">
+                        <dl>
+                            <dt><img src="images/50.png" alt=""></dt>
+                            <dd><a href="javascript:;">立即购买</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <img src="images/zs2.png" alt="">
+                        <dl>
+                            <dt><img src="images/50.png" alt=""></dt>
+                            <dd><a href="javascript:;">立即购买</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <img src="images/zs3.png" alt="">
+                        <dl>
+                            <dt><img src="images/50.png" alt=""></dt>
+                            <dd><a href="javascript:;">立即购买</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="manyi6">
+                <img src="images/zs4.png" alt="" srcset="">
+            </div>
+            <footer class="footers">
+                <div class="ulWrap clearfix">
+                    <ul class="left">
+                        <li><a href="javascript:;">家宴即食</a></li>
+                        <li><a href="javascript:;">满溢即食</a></li>
+                        <li><a href="javascript:;">即食礼盒</a></li>
+                    </ul>
+                    <ul class="left">
+                        <li><a href="javascript:;">喜悦淡干</a></li>
+                        <li><a href="javascript:;">顶级干参</a></li>
+                        <li><a href="javascript:;">海参卡券</a></li>
+                    </ul>
+                    <ul class="left">
+                        <li><a href="javascript:;">海参菜品</a></li>
+                        <li><a href="javascript:;">海参零食</a></li>
+                    </ul>
+                    <ul class="left">
+                        <li><a href="javascript:;">海参肽</a></li>
+                        <li><a href="javascript:;">其他产品</a></li>
+                    </ul>
+                </div>
+            </footer>
+
+
+
+
+
+
+        </div>
+        
+    </div>
+</body>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30
+        });
+        </script>
+</html>

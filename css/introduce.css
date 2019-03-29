@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.introduce{
+    padding-top: 120px;
+}
+.inImg img{
+    width: 100%;
+}
+.imgsWrap{
+    width: 1263px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 202px;
+}
+.downImg{
+    width: 1263px;
+    height: 866px;
+    cursor: pointer;
+    background: url('../images/555.png') no-repeat;
+}
+.downImg:hover{
+    background: url('../images/666.png') no-repeat;
+}
