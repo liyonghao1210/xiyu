@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" href="css/productDisplay.css">
+
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -30,26 +33,14 @@
             </div>
         </header>
         <div class="productContent">
-            <!-- Swiper -->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                    <div class="swiper-slide">Slide 10</div>
+                
+                <div class="demo">
+                    <ul class="bxslider">
+                        <li><a href="javascript:;"><img src="images/banner.png" /></a></li>
+                        <li><a href="javascript:;"><img src="images/banner.png" /></a></li>
+                        <li><a href="javascript:;"><img src="images/banner.png" /></a></li>
+                    </ul>
                 </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
 
             <div class="manyi">
                 <img src="images/manyi.png" alt="">
@@ -58,11 +49,11 @@
             <div class="clearfix manyi1">
                 <dl class="left">
                     <dt>满溢250g</dt>
-                    <dd><img src="images/01.png" alt=""></dd>
+                    <dd><a href="javascript:;"><img src="images/01.png" alt=""></a></dd>
                 </dl>
                 <dl class="right">
                     <dt>满溢1500g</dt>
-                    <dd><img src="images/02.png" alt=""></dd>
+                    <dd><a href="javascript:;"><img src="images/02.png" alt=""></a></dd>
                 </dl>
             </div>
 
@@ -125,26 +116,10 @@
                     </ul>
                 </div>
             </footer>
-
-
-
-
-
-
         </div>
-        
     </div>
 </body>
-<script src="js/swiper.jquery.min.js"></script>
-<script src="js/swiper.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            pagination: '.swiper-pagination',
-            paginationClickable: true,
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            spaceBetween: 30
-        });
-        </script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/banner.js"></script>
 </html>
